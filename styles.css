@@ -52,7 +52,7 @@ nav a {
 
 .login-registration a button {
   color: white;
-  background-color: rgb(69, 6, 241);
+  background-color: rgb(77, 19, 209);
   width: 85px;
   height: 35px;
   border: 0;
@@ -77,9 +77,9 @@ main {
   width: 45%;
 }
 
-.presentation {
-  /* display: flex; */
-}
+/* .presentation {
+  display: flex;
+} */
 
 .reputation {
   display: flex;
@@ -106,7 +106,7 @@ main {
 }
 
 .materials-access button {
-  background-color: rgb(69, 6, 241);
+  background-color: rgb(77, 19, 209);
   width: 150px;
   height: 45px;
   border: 0;
@@ -121,7 +121,7 @@ main {
 .materials-access a {
   font-weight: bold;
   letter-spacing: 1px;
-  color: rgb(69, 6, 241);
+  color: rgb(77, 19, 209);
 }
 
 .validation {
@@ -152,7 +152,7 @@ main {
   padding-top: 50px;
   font-weight: bold;
   letter-spacing: 1px;
-  color: rgb(69, 6, 241);
+  color: rgb(77, 19, 209);
 }
 
 .content h2 {
@@ -193,6 +193,19 @@ main {
   display: flex;
 }
 
+.group-presentation button {
+  background-color: rgb(255, 255, 255, 1);
+  width: 150px;
+  height: 45px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 14px;
+  color: rgb(77, 19, 209);
+}
+
 .text-presentation {
   display: flex;
   flex-direction: column;
@@ -209,7 +222,7 @@ main {
 
   display: flex;
 
-  background-color: rgb(69, 6, 241);
+  background-color: rgb(77, 19, 209);
   border: none;
   border-radius: 7px;
 }
@@ -230,4 +243,110 @@ main {
   line-height: 22px;
   letter-spacing: 0.5px;
   color: white;
+}
+
+.portfolios-access {
+  display: flex;
+  gap: 35px;
+  margin-left: 90px;
+}
+
+.portfolios-access img {
+  width: 45px;
+}
+
+.portfolio-demonstration {
+  width: 420px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+
+  border: 2px solid rgb(128, 128, 128, 0.15);
+  border-radius: 5px;
+}
+
+.identification {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.name-detail h4 {
+  font-size: 13px;
+  color: rgb(77, 19, 209);
+}
+
+.name-detail h5 {
+  font-size: 14px;
+  font-weight: lighter;
+  color: rgb(128, 128, 128, 1);
+}
+
+/* .portfolio-demonstration h4 {
+}
+
+.portfolio-demonstration h5 {
+} */
+
+.portfolio-demonstration p {
+  margin: 20px;
+}
+
+.text-destination {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.text-destination span {
+  text-transform: uppercase;
+}
+
+.text-destination a button {
+  background-color: white;
+  padding: 0 55px;
+  width: 100%;
+  height: 45px;
+  border: 2px solid rgb(128, 128, 128, 0.15);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 14px;
+  color: rgb(77, 19, 209);
+}
+
+.content-footer {
+  margin: 50px 90px;
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.fiber {
+  width: 30%;
+}
+
+footer h2 {
+  margin-bottom: 7px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+footer p {
+  font-size: 12px;
+  color: rgb(128, 128, 128, 0.85);
+}
+
+.fiber-description {
+  margin-bottom: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
