@@ -6,7 +6,7 @@
 
 body {
   display: flex;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 aside {
@@ -19,14 +19,29 @@ aside {
   justify-content: center;
 }
 
-.login {
-  /* margin-top: 50px;
-  padding-left: 100px;
-  padding-right: 100px; */
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center; */
-  /* align-items: center; */
+.back a button {
+  all: unset;
+  width: 6%;
+  height: 30px;
+  position: absolute;
+  top: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  border: 2px solid rgb(77, 19, 209);
+  border-radius: 5px;
+  color: rgb(77, 19, 209);
+}
+
+.back a button:hover {
+  font-size: 16px;
+  font-weight: bold;
+
+  box-shadow: rgba(77, 19, 209, 0.3) 0px 60px 40px -7px;
 }
 
 .title-login p {
@@ -50,6 +65,31 @@ aside {
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+
+.feature input {
+  padding: 0 15px;
+}
+
+.password {
+  position: relative;
+}
+
+.password img {
+  height: 25px;
+  position: absolute;
+  right: 15px;
+  top: 35px;
+}
+
+.password input:hover {
+  .password img {
+    display: none;
+  }
+}
+
+.password img svg:hover {
+  display: none;
 }
 
 .registration p {
@@ -156,4 +196,25 @@ main p {
   font-weight: lighter;
   text-align: center;
   color: white;
+}
+
+.points {
+  margin-top: 12px;
+  display: flex;
+  gap: 7px;
+}
+
+.point {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs, 1));
+  width: 10px;
+  height: 10px;
+  background: white;
+  border-radius: 50%;
+}
+
+.sec {
+  background-color: rgb(255, 255, 255, 0.5);
 }
